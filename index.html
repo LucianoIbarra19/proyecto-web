@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./img/HYDRFGaming.png">
+    <link rel="stylesheet" href="./login.html">
+    <link rel="stylesheet" href="./register.html">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HDRYF Gaming</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./img/HYDRFGaming.png" alt="HYDRF">
+        <nav class="navbar">
+            <div class="listas">
+                <label for="toggle-menu" class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="toggle-menu">
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#hero"><i class="fa-solid fa-house"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="#accion">Acción</a>
+                    </li>
+                    <li>
+                        <a href="#deportes">Deportes</a>
+                    </li>
+                    <li>
+                        <a href="#shooter">Shooter</a>
+                    </li>
+                    <li>
+                        <a href="#aventura">Aventura</a>
+                    </li>
+                    <li>
+                        <a href="#cart-toggle"">
+                            <label for="cart-toggle" class="cart-label">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </label>
+                        </a>
+                        <input type="checkbox" id="cart-toggle">
+
+                        <div class="cart">
+                            <h2>Tus Compras</h2>
+                            <div class="cart-item">
+                                <img src="./img/AdvanceWarfare.jpg" alt="producto">
+                                <div class="item-info">
+                                    <h3 class="item-title">Call Of Duty: Advance Warfare</h3>
+                                    <p class="item-bid">Gold Edition</p>
+                                    <span class="item-price">$1200</span>
+                                </div>
+                                <div class="item-handler">
+                                    <span class="quantity-handler down">-</span>
+                                    <span class="item-quantity">1</span>
+                                    <span class="quantity-handler up">+</span>
+                                </div>
+                            </div>
+                            <div class="cart-item">
+                                <img src="./img/DyingLight2.jpg" alt="producto">
+                                <div class="item-info">
+                                    <h3 class="item-title">Dying Light 2: Stay Human</h3>
+                                    <p class="item-bid">Ultimate Edition</p>
+                                    <span class="item-price">$3000</span>
+                                </div>
+                                <div class="item-handler">
+                                    <span class="quantity-handler down">-</span>
+                                    <span class="item-quantity">1</span>
+                                    <span class="quantity-handler up">+</span>
+                                </div>
+                            </div>
+                            <span class="divider"></span>
+    
+                        <div class="cart-total">
+                            <p class="item-bid">Total: </p>
+                            <span class="item-price">$4200</span>
+                        </div>
+    
+                        <button class="btn--comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="text__container">
+                <h2>Bienvenidos a la tienda | <span class="title">HDRYF Gaming</span></h2>
+                <p class="párrafo">En la tienda gamer HYDRF encontrarás todas las categorías de juegos al mejor 
+                    precio y calidad del mercado, tenemos descuentos del 30% 1 vez al mes todos los viernes
+                    en las categorías de deportes, acción, shooter y aventura. <span class="space">
+                        Inicia sesión para disfrutar tu experiencia en multijugador.
+                    </span>
+                </p>
+                <div class="btn">
+                    <button type="submit" class="btn btn--login"><a href="./login.html" target="_blank">Iniciar Sesión</a></button>
+                    <button type="submit" class="btn btn--register"><a href="./register.html" target="_blank">Registrarse</a></button>
+                </div>
+            </div>
+            <div class="hero--img">
+                <img src="./img/HYDRFGaming.png" alt="HYDRF">
+            </div>
+        </section>
+        <h3 id="accion">Acción</h3>
+        <section class="section__contenedor">
+            <div class="targeta__card">
+                <img src="./img/Assassin´s Creed Valhalla.jpg" alt="Assassin">
+                <h4>Assassin's Creed Valhalla</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$2500</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--2">
+                <img src="./img/GTA V.jpg" alt="GTAV">
+                <h4>Grand Theft Auto V</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1250</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--3">
+                <img src="./img/GOWR.jpg" alt="GOWR">
+                <h4>God Of War: Ragnarok</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1500</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            </div>
+            <div class="targeta__card card--4">
+                <img src="./img/DyingLight2.jpg" alt="DL2">
+                <h4>Dying Light 2: <span class="span">Stay Human</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$3000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--5">
+                <img src="./img/RE4R.jpg" alt="RE4R">
+                <h4>Resident Evil 4</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$5000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--6">
+                <img src="./img/TLOUP1.jpg" alt="TLOUP1"">
+                <h4>The Last Of Us: Part 1</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$2000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--7">
+                <img src="./img/MetalGearSolidV.jpg" alt="MGSV">
+                <h4>Metal Gear Solid V: <span class="span">The Phantom Pain</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+        </section>
+        <h3 id="deportes">Deportes</h3>
+        <section class="section__contenedor">
+            <div class="targeta__card">
+                <img src="./img/NBA2K23.jpg" alt="x">
+                <h4>NBA 2K23</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$2570</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--2">
+                <img src="./img/Rocket.jpg" alt="x">
+                <h4>Rocket League</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$780</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--3">
+                <img src="./img/FIFA22.jpg" alt="x">
+                <h4>FIFA 22</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$2000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--4">
+                <img src="./img/TonyHawk's.jpg" alt="x">
+                <h4>Tony Hawk's: <span class="span">Pro Skater 1+2</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1500</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--5">
+                <img src="./img/FallGuys.jpg" alt="x">
+                <h4>Fall Guys</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$2120</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--6">
+                <img src="./img/GangBeasts.jpg" alt="x">
+                <h4>Gang Beasts</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1300</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card card--7">
+                <img src="./img/Meaneater.jpg" alt="x">
+                <h4>Maneater</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$4000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+        </section>
+        <h3 id="shooter">Shooter</h3>
+        <section class="section__contenedor">
+            <div class="targeta__card">
+                <img src="./img/CALL-OF-DUTY-BLACK-OPS-3.jpg" alt="x">
+                <h4>Call Of Duty: <span class="span">Black Ops III</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$700</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/AdvanceWarfare.jpg" alt="x">
+                <h4>Call Of Duty: <span class="span">Advanced Warfare</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1200</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/ColdWar.jpg" alt="x">
+                <h4>Call Of Duty: <span class="span">Black Ops Cold War</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$2000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/ModernWarfare.jpg" alt="x">
+                <h4>Call Of Duty: <span class="span">Modern Warfare</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1500</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/ModernWarfare2.jpg" alt="x">
+                <h4>Call Of Duty: <span class="span">Modern Warfare II</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$5000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/call-of-duty-black-ops-4.jpg" alt="x">
+                <h4>Call Of Duty: <span class="span">Black Ops IV</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1500</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/Battlefield™-2042-PS4.jpg" alt="x">
+                <h4>Battlefield 2042: <span class="span">Ultimate Edition</span></h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1780</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+        </section>
+        <h3 id="aventura">Aventura</h3>
+        <section class="section__contenedor">
+            <div class="targeta__card">
+                <img src="./img/spider-man.jpg" alt="x">
+                <h4>Spider-Man</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$750</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/Uncharted4.jpg" alt="x">
+                <h4>Uncharted 4</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$500</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/GhostOfTsushima.jpg" alt="x">
+                <h4>Ghost Of Tsushima</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$800</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/Death-Stranding.jpg" alt="x">
+                <h4>Death Stranding</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$1000</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/UnitlDawn.jpg" alt="x">
+                <h4>Until Dawn</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$700</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/bloodborne.jpg" alt="x">
+                <h4>Bloodborne</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$650</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+            <div class="targeta__card">
+                <img src="./img/DaysGone.jpg" alt="x">
+                <h4>Days Gone</h4>
+                <div class="divbtn">
+                    <p class="divbtn btn--precio">$850</p>
+                    <button type="button" class="divbtn btn--agregar">Agregar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="redes">
+            <div class="lista">
+                <h3>Nuestras Redes:</h3>
+                <ul class="wrapper">
+                    <div class="favicon">
+                        <li class="icon"><i class="fa-brands fa-facebook"></i></li>
+                    </div>
+                    <div class="favicon">
+                        <li class="icon"><i class="fa-brands fa-instagram"></i></li>
+                    </div>
+                    <div class="favicon">
+                        <li class="icon"><i class="fa-brands fa-twitter"></i></li>
+                    </div>
+                    <div class="favicon">
+                        <li class="icon"><i class="fa-brands fa-youtube"></i></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1549045544416!2d-58.439164285052485!3d-34.60024426482073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca73a6097b2f%3A0x618a15db59e6f5a4!2sAv.%20Corrientes%2C%20C1414AJD%20CABA!5e0!3m2!1ses-419!2sar!4v1665182249984!5m2!1ses-419!2sar" width="300" height="250" style="border: 0;" margin-top="20px"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contacto">
+            <h3>Contáctanos:</h3>
+            <div class="lista">
+                <ul class="wrapper2">
+                    <li class="favicon"><i class="fa-brands fa-whatsapp"> +1157348237</i></li>
+                    <li class="favicon"><i class="fa-regular fa-envelope"> HYDRFGaming@gmail.com</i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

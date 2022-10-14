@@ -1,0 +1,124 @@
+@media (max-width: 992px) {
+    .navbar{
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .listas{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .text__container{
+        text-align: center;
+        width: 90%;
+        align-items: center;
+    }
+
+    .text__container h2{
+        display: block;
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .text__container p{
+        max-width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+    }
+
+    .btn{
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .hero--img{
+        display: none;
+    }
+
+    .section__contenedor{
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .footer{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .navbar ul,
+    .navbar-list{
+        background: linear-gradient(to right, #8E2DE2, #4A00E0);
+        width: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        left: 0;
+        height: calc(100vh - 70px);
+        transform: translateX(100%);
+        transition: all 0.4s ease-out;
+    }
+
+    .bars{
+        display: block;
+        color: #ffffff;
+        margin-left: 250px;
+    }
+
+    #toggle-menu:checked + .navbar-list{
+        transform: translateX(0%);
+        transition: all 0.4s ease-in;
+    }
+
+    #hero{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text__container{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .text__container h2{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn{
+        flex-direction: column;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .btn{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
