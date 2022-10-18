@@ -61,7 +61,7 @@
     .navbar ul,
     .navbar-list{
         background: linear-gradient(to right, #8E2DE2, #4A00E0);
-        width: 100%;
+        width: 98%;
         position: absolute;
         align-items: center;
         justify-content: center;
@@ -75,11 +75,16 @@
     .bars{
         display: block;
         color: #ffffff;
-        margin-left: 250px;
+        margin-left: 400px;
+        overflow: hidden;
+    }
+
+    .navbar-list{
+        margin-left: 10px;
     }
 
     #toggle-menu:checked + .navbar-list{
-        transform: translateX(0%);
+        transform: translateX(0);
         transition: all 0.4s ease-in;
     }
 
@@ -93,23 +98,32 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+        margin-left: 30px;
     }
 
     .text__container h2{
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin-left: 30px;
     }
 
     .btn{
         flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .section__contenedor{
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
     }
 
     .footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-right: 20px;
+        padding: 15px 15px;
     }
 
 }
